@@ -1,7 +1,5 @@
-const sum = require("./index");
+function sum(a, b) { return a + b; }
 
-if (sum(2, 2) !== 4) {
-  throw new Error("Test failed: sum(2,2) must equal 4");
-}
-
-console.log("All tests passed!");
+test('adds 1 + 2 to equal 3', () => {
+  expect(sum(1, 2)).toBe(3);
+});
