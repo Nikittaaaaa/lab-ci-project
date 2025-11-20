@@ -1,7 +1,13 @@
 {
   "name": "lab-ci-project",
   "version": "1.0.0",
+  "description": "Lab 7 CI test project",
+  "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
   }
 }
+
